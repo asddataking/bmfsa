@@ -8,9 +8,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
+      <head></head>
+      <body className="bg-slate-400">
       <Header />
-      <body>{children}</body>
+        {children}
+      </body>
     </html>
   )
 }
