@@ -2,7 +2,6 @@
 export default function Page() {
     return (
       <h1 className="text-3xl font-bold underline">
-       Welcome to the Services 
+        Always Free Estimates 
       </h1>
-    )
-  }
+    )}
