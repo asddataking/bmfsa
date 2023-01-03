@@ -6,7 +6,7 @@ export default function Header() {
     return (
       <header className="p-5"> 
            <Image
-      src= "
+      src= ""
       width={50}
       height={50}
       alt="Good Guys Painting logo"
