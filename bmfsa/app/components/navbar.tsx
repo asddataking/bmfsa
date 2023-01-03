@@ -6,7 +6,7 @@ export default function Navbar() {
         This is the Nav 
         
     <Image
-      src= "./logotrans.png"
+      src= "/logo.png"
       width={50}
       height={50}
       alt="Good Guys Painting logo"
