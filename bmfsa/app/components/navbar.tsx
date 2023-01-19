@@ -3,8 +3,6 @@ import Image from 'next/image';
 
 export default function Navbar() {
     return (<nav>
-        This is the Nav 
-        
     <Image
       src= "/logo.png"
       width={50}
@@ -12,12 +10,11 @@ export default function Navbar() {
       alt="Good Guys Painting logo"
     />
         <ul>
-        <Link href=""> Home </Link>
-        <Link href="/dashboard">Dashboard</Link>
-        <Link href="/services">Services</Link>
-        
-        <Link href="/auth/login">Login</Link>
-        <Link href="/auth/signup">Signup</Link>
+         <li><Link href=""> Home </Link></li>
+        <li><Link href="/estimates">Estimates</Link></li>   
+        <li><Link href="/services">Services</Link></li>
+        <li> <Link href="/auth/login">Login</Link></li>
+        <li><Link href="/auth/signup">Signup</Link></li>
         </ul>
         
 

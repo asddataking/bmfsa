@@ -3,7 +3,7 @@ import React from 'react'
 export default function Page() {
     return (
       <h1 className="text-3xl font-bold underline">
-       Sign-up
+       <button>Signup</button> 
       </h1>
     )
   }
