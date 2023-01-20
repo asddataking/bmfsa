@@ -7,7 +7,7 @@ export default function Header() {
       <header className="p-5"> 
       Header Area 
    
-      <Navbar></Navbar>
+     <Navbar></Navbar>
  
     
       

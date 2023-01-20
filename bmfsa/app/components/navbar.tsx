@@ -9,7 +9,7 @@ export default function Navbar() {
       height={50}
       alt="Good Guys Painting logo"
     />
-        <ul>
+        <ul className="flex flex-wrap justify-between">
          <li><Link href=""> Home </Link></li>
         <li><Link href="/estimates">Estimates</Link></li>   
         <li><Link href="/services">Services</Link></li>
